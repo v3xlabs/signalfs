@@ -24,3 +24,8 @@ Every bit of data is important. Especially when it comes to ranking of data rele
 ## Filesystem abstraction
 
 Just like we are able to store `File` objects, we are also able to store `Directory` objects. The `Directory` object is a JSON object that contains a list of `File` and `Directory` objects. This allows for the storage of a file system like structure. The `Directory` object is stored in the same way as the `File` object, by hash.
+
+## Documents worth a read
+
+- [IPFS Hashing Concepts](https://docs.ipfs.tech/concepts/hashing/)
+- [How IPFS deals with files](https://www.youtube.com/watch?v=Z5zNPwMDYGg)
