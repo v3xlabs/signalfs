@@ -1,0 +1,14 @@
+digraph {
+    layout="neato"
+
+    chunk -> CID [style="dotted"];
+    file -> object;
+    object -> chunk;
+    directory -> file;
+
+    directory [xlabel="Directory Abstraction Layer"]
+    file [xlabel="File Abstraction Layer"]
+    object [xlabel="Record<> style object serializable as JSON or more"]
+    chunk [xlabel="Blob of data stored on disk"]
+    CID [xlabel="multiformats/cid 😏", style="dotted"]
+}

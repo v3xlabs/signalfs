@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="483pt" height="289pt" viewBox="0.00 0.00 483.38 288.59">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 284.5873)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-284.5873 479.3753,-284.5873 479.3753,4 -4,4"/>
+<!-- chunk -->
+<g id="node1" class="node">
+<title>chunk</title>
+<ellipse fill="none" stroke="#000000" cx="286.6195" cy="-84.9271" rx="34.7748" ry="18"/>
+<text text-anchor="middle" x="286.6195" y="-80.7271" font-family="Times,serif" font-size="14.00" fill="#000000">chunk</text>
+<text text-anchor="middle" x="176.3558" y="-107.1271" font-family="Times,serif" font-size="14.00" fill="#000000">Blob of data stored on disk</text>
+</g>
+<!-- CID -->
+<g id="node2" class="node">
+<title>CID</title>
+<ellipse fill="none" stroke="#000000" stroke-dasharray="1,5" cx="259.2225" cy="-18" rx="27.8267" ry="18"/>
+<text text-anchor="middle" x="259.2225" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">CID</text>
+<text text-anchor="middle" x="176.1498" y="-40.2" font-family="Times,serif" font-size="14.00" fill="#000000">multiformats/cid 😏</text>
+</g>
+<!-- chunk&#45;&gt;CID -->
+<g id="edge1" class="edge">
+<title>chunk-&gt;CID</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M279.2776,-66.9919C276.5316,-60.2837 273.3476,-52.5057 270.3365,-45.15"/>
+<polygon fill="#000000" stroke="#000000" points="273.4226,-43.4501 266.395,-35.5215 266.9444,-46.1021 273.4226,-43.4501"/>
+</g>
+<!-- file -->
+<g id="node3" class="node">
+<title>file</title>
+<ellipse fill="none" stroke="#000000" cx="373.9552" cy="-199.5917" rx="27" ry="18"/>
+<text text-anchor="middle" x="373.9552" y="-195.3917" font-family="Times,serif" font-size="14.00" fill="#000000">file</text>
+<text text-anchor="middle" x="283.5884" y="-221.7917" font-family="Times,serif" font-size="14.00" fill="#000000">File Abstraction Layer</text>
+</g>
+<!-- object -->
+<g id="node4" class="node">
+<title>object</title>
+<ellipse fill="none" stroke="#000000" cx="325.2672" cy="-146.1098" rx="34.769" ry="18"/>
+<text text-anchor="middle" x="325.2672" y="-141.9098" font-family="Times,serif" font-size="14.00" fill="#000000">object</text>
+<text text-anchor="middle" x="145.3165" y="-168.3098" font-family="Times,serif" font-size="14.00" fill="#000000">Record&lt;&gt; style object serializable as JSON or more</text>
+</g>
+<!-- file&#45;&gt;object -->
+<g id="edge2" class="edge">
+<title>file-&gt;object</title>
+<path fill="none" stroke="#000000" d="M359.8726,-184.1225C355.9144,-179.7746 351.5132,-174.94 347.2128,-170.2162"/>
+<polygon fill="#000000" stroke="#000000" points="349.4868,-167.5149 340.1667,-162.4763 344.3105,-172.2272 349.4868,-167.5149"/>
+</g>
+<!-- object&#45;&gt;chunk -->
+<g id="edge3" class="edge">
+<title>object-&gt;chunk</title>
+<path fill="none" stroke="#000000" d="M314.2957,-128.741C310.7572,-123.1392 306.7559,-116.8049 302.918,-110.7291"/>
+<polygon fill="#000000" stroke="#000000" points="305.7843,-108.713 297.4847,-102.1276 299.8662,-112.4514 305.7843,-108.713"/>
+</g>
+<!-- directory -->
+<g id="node5" class="node">
+<title>directory</title>
+<ellipse fill="none" stroke="#000000" cx="429.4831" cy="-245.7873" rx="45.7848" ry="18"/>
+<text text-anchor="middle" x="429.4831" y="-241.5873" font-family="Times,serif" font-size="14.00" fill="#000000">directory</text>
+<text text-anchor="middle" x="304.2941" y="-267.9873" font-family="Times,serif" font-size="14.00" fill="#000000">Directory Abstraction Layer</text>
+</g>
+<!-- directory&#45;&gt;file -->
+<g id="edge4" class="edge">
+<title>directory-&gt;file</title>
+<path fill="none" stroke="#000000" d="M409.7497,-229.3704C406.2174,-226.4318 402.4955,-223.3354 398.8408,-220.2949"/>
+<polygon fill="#000000" stroke="#000000" points="400.9731,-217.516 391.0472,-213.8111 396.4963,-222.8973 400.9731,-217.516"/>
+</g>
+</g>
+</svg>
