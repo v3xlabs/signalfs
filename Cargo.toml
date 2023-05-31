@@ -1,7 +1,7 @@
 [workspace]
 
 members = [
-    "packages/webzip-core",
+    "packages/shardfs",
     "packages/webzip-upload",
     "packages/webzip-blob"
 ]
