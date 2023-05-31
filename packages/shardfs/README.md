@@ -1,3 +1,3 @@
-<center>
 <img src="./shardfs.png" />
-</center>
+
+Storage go brr..
